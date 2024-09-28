@@ -1,0 +1,27 @@
+{
+  "name": "my-vuepress-site",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "author": "liuzhe <liuzhe@qq.com>",
+  "license": "MIT",
+  "engines": {
+    "node": "^18.20.0 || >=20.0.0"
+  },
+  "scripts": {
+    "deploy":"bash deploy.sh",
+    "docs:dev": "vuepress dev docs",
+    "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
+    "docs:build": "vuepress build docs --clean-cache --clean-temp",
+    "docs:preview": "http-server docs/.vuepress/dist",
+    "vp-update": "npx vp-update"
+  },
+  "devDependencies": {
+    "vuepress": "2.0.0-rc.15",
+    "vuepress-theme-plume": "1.0.0-rc.104",
+    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "http-server": "^14.1.1",
+    "vue": "^3.5.9",
+    "sass-embedded": "^1.79.3"
+  }
+}
