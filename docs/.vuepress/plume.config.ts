@@ -8,10 +8,10 @@ export default defineThemeConfig({
   logo: '/blogger.png',
   // your git repo url
   //用于生成编辑 链接。
-  docsRepo: 'https://github.com/liuzhemax/blog.git',
+  docsRepo: 'https://github.com/liuzhemax/docs',
   docsDir: 'docs',
   docsBranch: 'main',
-  // lastUpdated: { text: 'Last Updated'},
+
   appearance: true,
   //页脚
   footer: { message: '', copyright: 'Copyright © 2024 阿哲 www.azhe.asia' },

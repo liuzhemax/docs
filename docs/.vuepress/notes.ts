@@ -7,29 +7,40 @@ const k8s = defineNoteConfig({
   dir: 'k8s',
   link: '/notes/k8s/',
   sidebar: [
-      { text: 'k8s学习笔记', link: '/notes/k8s/' },
-      { text: 'k8s入门', prefix: 'introduction',
-      collapsed: false,
-      items: 'auto',
-      // items: [
-      //   { text: '介绍1', link: 'foo1' },
-      //   { text: '介绍2', link: 'foo2' },
-      //   { text: '介绍3', link: 'foo3' },
-      // ],
-    },
-    { text: 'k8s进阶', prefix: 'upgrade',
-      collapsed: false,
-      items: 'auto',
-      // items: [
-      //   { text: '介绍1', link: 'bar' },
-      //   { text: '介绍1', link: 'intro' },
-      //   { text: '介绍1', link: 'intro' },
-      //   { text: '介绍1', link: 'intro' },
-      // ],
-    },
+      { text: 'K8S学习笔记', link: '/notes/k8s/' },
+      { text: 'K8S入门', prefix: 'introduction', collapsed: false, items: 'auto',},
+      { text: 'K8S进阶', prefix: 'upgrade', collapsed: false, items: 'auto',},
   ]
 })
 
+const python = defineNoteConfig({
+  dir: 'python',
+  link: '/notes/python/',
+  sidebar: [
+      { text: 'Python学习笔记', link: '/notes/python/' },
+      { text: 'Python基础', prefix: 'base', collapsed: false, items: 'auto',}
+  ]
+})
+
+const django = defineNoteConfig({
+  dir: 'django',
+  link: '/notes/django/',
+  sidebar: [
+      { text: 'Django学习笔记', link: '/notes/django/' },
+      { text: 'Django入门', prefix: 'introduction', collapsed: false, items: 'auto',},
+      { text: 'Django进阶', prefix: 'upgrade', collapsed: false, items: 'auto',}
+  ]
+})
+
+const web = defineNoteConfig({
+  dir: 'web',
+  link: '/notes/web/',
+  sidebar: [
+      { text: '前端学习笔记', link: '/notes/web/' },
+      { text: 'HTML', prefix: 'introduction', collapsed: false, items: 'auto',},
+      { text: 'Vue', prefix: 'upgrade', collapsed: false, items: 'auto',}
+  ]
+})
 /**
  * 配置 notes
  */
@@ -38,7 +49,7 @@ export default defineNotesConfig({
   dir: '/notes/',
   link: '/',
   // 在这里添加 note 配置
-  notes: [k8s]
+  notes: [k8s,python,django,web]
 })
 
 

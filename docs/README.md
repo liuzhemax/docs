@@ -13,6 +13,6 @@ config:
         -
           theme: brand
           text: 我的博客 →
-          link: /blog/
+          link: https://liuzhemax.github.io/
         
 ---
