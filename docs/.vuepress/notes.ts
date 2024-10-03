@@ -7,7 +7,7 @@ const k8s = defineNoteConfig({
   dir: 'k8s',
   link: '/notes/k8s/',
   sidebar: [
-      { text: 'K8S学习笔记', link: '/notes/k8s/' },
+      { text: 'K8S学习笔记', link: '/notes/k8s/',},
       { text: 'K8S入门', prefix: 'introduction', collapsed: false, items: 'auto',},
       { text: 'K8S进阶', prefix: 'upgrade', collapsed: false, items: 'auto',},
   ]
@@ -41,6 +41,16 @@ const web = defineNoteConfig({
       { text: 'Vue', prefix: 'upgrade', collapsed: false, items: 'auto',}
   ]
 })
+
+const devops = defineNoteConfig({
+  dir: 'devops',
+  link: '/notes/devops/',
+  sidebar: [
+      { text: '自动化运维平台', link: '/notes/devops/' },
+      { text: '安装文档', prefix: 'install', collapsed: false, items: 'auto',},
+      { text: '操作手册', prefix: 'operation', collapsed: false, items: 'auto',},
+  ]
+})
 /**
  * 配置 notes
  */
@@ -49,7 +59,7 @@ export default defineNotesConfig({
   dir: '/notes/',
   link: '/',
   // 在这里添加 note 配置
-  notes: [k8s,python,django,web]
+  notes: [k8s,python,django,web,devops]
 })
 
 

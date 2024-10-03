@@ -1,6 +1,8 @@
 ---
-title: python学习笔记
-createTime: 2022/06/09 21:31:24
+title: Python学习笔记
+createTime: 2024/02/11 21:31:24
 permalink: /notes/python/
 ---
-python基础
+::: tip
+Python基础
+:::

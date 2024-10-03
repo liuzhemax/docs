@@ -9,7 +9,7 @@
     "node": "^18.20.0 || >=20.0.0"
   },
   "scripts": {
-    "deploy":"bash deploy.sh",
+    "deploy": "bash deploy.sh",
     "docs:dev": "vuepress dev docs",
     "docs:dev-clean": "vuepress dev docs --clean-cache --clean-temp",
     "docs:build": "vuepress build docs --clean-cache --clean-temp",
@@ -17,11 +17,11 @@
     "vp-update": "npx vp-update"
   },
   "devDependencies": {
-    "vuepress": "2.0.0-rc.15",
-    "vuepress-theme-plume": "1.0.0-rc.104",
-    "@vuepress/bundler-vite": "2.0.0-rc.15",
+    "vuepress": "2.0.0-rc.17",
+    "vuepress-theme-plume": "1.0.0-rc.106",
+    "@vuepress/bundler-vite": "2.0.0-rc.17",
     "http-server": "^14.1.1",
-    "vue": "^3.5.9",
+    "vue": "^3.5.10",
     "sass-embedded": "^1.79.3"
   }
 }

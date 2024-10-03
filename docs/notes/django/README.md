@@ -1,6 +1,8 @@
 ---
-title: django学习笔记
-createTime: 2022/06/09 21:31:24
+title: Django学习笔记
+createTime: 2024/03/01 21:31:24
 permalink: /notes/django/
 ---
-django入门到进阶
+::: tip
+Django入门到进阶
+:::

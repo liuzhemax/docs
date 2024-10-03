@@ -236,7 +236,7 @@ devops_api/devops_api/asgi.py
 
 ```python
 """
-ASGI config for devops_api project.
+ASGI config for devops_api operation.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
