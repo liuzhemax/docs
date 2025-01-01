@@ -17,11 +17,7 @@ config:
         -
           theme: brand
           text: 运维平台体验
-          link: /notes/devops/612j7li8/        
-        -
-          theme: brand
-          text: 权限平台体验
-          link: /notes/permission/6q3h4sff/         
+          link: /notes/devops/612j7li8/               
         -
           theme: alt
           text: Gitee
