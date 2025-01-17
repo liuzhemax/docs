@@ -52,11 +52,11 @@ const devops = defineNoteConfig({
   ]
 })
 
-const permission = defineNoteConfig({
-  dir: 'permission',
-  link: '/notes/permission/',
+const kubernetes = defineNoteConfig({
+  dir: 'kubernetes',
+  link: '/notes/kubernetes/',
   sidebar: [
-      { text: '权限管理平台', link: '/notes/permission/' },
+      { text: 'K8S管理平台', link: '/notes/kubernetes/' },
       { text: '安装文档', prefix: 'install', collapsed: false, items: 'auto',},
       { text: '操作手册', prefix: 'operation', collapsed: false, items: 'auto',},
   ]
@@ -69,7 +69,7 @@ export default defineNotesConfig({
   dir: '/notes/',
   link: '/',
   // 在这里添加 note 配置
-  notes: [k8s,python,django,web,devops,permission]
+  notes: [k8s,python,django,web,devops,kubernetes]
 })
 
 

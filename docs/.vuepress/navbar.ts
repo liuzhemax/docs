@@ -20,7 +20,7 @@ export const navbar = defineNavbarConfig([
     icon: 'teenyicons:webpack-outline',
     items: [
           { text: '自动化运维平台', link: '/notes/devops/' },
-          { text: '权限管理平台', link: '/notes/permission/' }
+          { text: 'K8S管理平台', link: '/notes/kubernetes/' }
     ]
   },
   {

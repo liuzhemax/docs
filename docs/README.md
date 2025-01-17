@@ -16,8 +16,12 @@ config:
           link: https://liuzhemax.github.io/
         -
           theme: brand
-          text: 运维平台体验
-          link: /notes/devops/612j7li8/               
+          text: 自动化运维平台体验
+          link: /notes/devops/612j7li8/  
+        -
+          theme: brand
+          text: K8S管理平台体验
+          link: /notes/kubernetes/6q3h4sff/              
         -
           theme: alt
           text: Gitee
@@ -88,15 +92,15 @@ config:
 </CardGrid>
 
 <CardGrid>
-<LinkCard icon="/noteicon/gitee.png" title="项目前端" href="https://gitee.com/lucky_liuzhe/permission_web/">
+<LinkCard icon="/noteicon/gitee.png" title="项目前端" href="https://gitee.com/lucky_liuzhe/k8s_web/">
 
-权限管理平台前端
+K8S管理平台前端
 
 </LinkCard>
 
-<LinkCard icon="/noteicon/gitee.png" title="项目后端" href="https://gitee.com/lucky_liuzhe/permission_api/">
+<LinkCard icon="/noteicon/gitee.png" title="项目后端" href="https://gitee.com/lucky_liuzhe/k8s_api/">
 
-权限管理平台后端
+K8S管理平台后端
 
 </LinkCard>
 </CardGrid>
