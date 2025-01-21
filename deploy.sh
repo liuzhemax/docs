@@ -9,7 +9,7 @@ npm run docs:build  #然后执行打包命令
 # 进入待发布的目录
 cd docs/.vuepress/dist  #进到dist目录
 
-echo "www.azhe.asia" > CNAME
+echo "www.azhe.xin" > CNAME
 git init  #执行这些git命令
 git add -A
 git commit -m 'deploy'

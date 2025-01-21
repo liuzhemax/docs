@@ -17,7 +17,7 @@ export default defineUserConfig({
      //笔记
      notes,
     // 添加您的部署域名
-    hostname: 'https://www.azhe.asia',
+    hostname: 'https://www.azhe.xin',
     plugins: {
         comment: {
         provider: 'Giscus', // "Artalk“ | "Giscus" | "Twikoo" | "Waline"
