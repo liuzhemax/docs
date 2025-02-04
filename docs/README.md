@@ -67,10 +67,11 @@ config:
 <p style="text-align: center;font-size: 25px"><strong>快速入门</strong></p>
 <br>
 <CardGrid>
-  <LinkCard icon="/noteicon/k8s.png" title="K8S入门到进阶" href="/notes/k8s/" />
   <LinkCard icon="/noteicon/py.svg" title="Python基础" href="/notes/python/" />
   <LinkCard icon="/noteicon/django.png" title="Django入门到进阶" href="/notes/django/" />
   <LinkCard icon="/noteicon/vue.svg" title="前端基础" href="/notes/web/" />
+  <LinkCard icon="/noteicon/k8s.png" title="K8S入门到进阶" href="/notes/k8s/" />
+  <LinkCard icon="/noteicon/golang.svg" title="Go基础" href="/notes/go/" />
 </CardGrid>
 
 <br>
