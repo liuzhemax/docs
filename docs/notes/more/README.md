@@ -48,3 +48,9 @@ permalink: /notes/more/
   <LinkCard icon="/noteicon/django.png" title="Django" href="https://www.djangoproject.com/" />
 </CardGrid>
 <LinkCard icon="/noteicon/drf.png" title="Django-REST-framework" href="https://www.django-rest-framework.org/" />
+
+### Go
+<CardGrid>
+  <LinkCard icon="/noteicon/golang.svg" title="Go" href="https://golang.google.cn/" />
+  <LinkCard icon="/noteicon/gorm.svg" title="GORM" href="https://gorm.io/zh_CN/docs/" />
+</CardGrid>

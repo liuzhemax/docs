@@ -9,11 +9,12 @@ export const navbar = defineNavbarConfig([
     text: '笔记',
     icon: 'material-symbols:stylus-note-outline-rounded',
     items: [
+          { text: 'Django入门到进阶', link: '/notes/django/' },
           { text: 'K8S入门到进阶', link: '/notes/k8s/' },
           { text: 'Python基础', link: '/notes/python/' },
-          { text: 'Django入门到进阶', link: '/notes/django/' },
           { text: '前端基础', link: '/notes/web/' },
           { text: 'Go基础', link: '/notes/go/' },
+          { text: 'Gin入门', link: '/notes/gin/' },
     ]
   },
     {

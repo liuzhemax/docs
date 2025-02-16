@@ -51,6 +51,16 @@ const go = defineNoteConfig({
   ]
 })
 
+const gin = defineNoteConfig({
+  dir: 'gin',
+  link: '/notes/gin/',
+  sidebar: [
+      { text: 'Gin学习笔记', link: '/notes/gin/' },
+      { text: 'Gin入门', prefix: 'introduction', collapsed: false, items: 'auto',},
+      { text: 'GORM', prefix: 'gorm', collapsed: false, items: 'auto',},
+  ]
+})
+
 const devops = defineNoteConfig({
   dir: 'devops',
   link: '/notes/devops/',
@@ -79,7 +89,7 @@ export default defineNotesConfig({
   dir: '/notes/',
   link: '/',
   // 在这里添加 note 配置
-  notes: [k8s,python,django,web,devops,kubernetes,go]
+  notes: [k8s,python,django,web,devops,kubernetes,go,gin]
 })
 
 
