@@ -28,7 +28,8 @@ const django = defineNoteConfig({
   sidebar: [
       { text: 'Django学习笔记', link: '/notes/django/' },
       { text: 'Django入门', prefix: 'introduction', collapsed: false, items: 'auto',},
-      { text: 'Django进阶', prefix: 'upgrade', collapsed: false, items: 'auto',}
+      { text: 'Django进阶', prefix: 'upgrade', collapsed: false, items: 'auto',},
+      { text: 'Django更新文档', prefix: 'update', collapsed: false, items: 'auto',}
   ]
 })
 
