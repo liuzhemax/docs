@@ -19,7 +19,9 @@ npm run docs:build
 npm run docs:django
 # 更新 vuepress 和主题
 npm run vp-update
+# npm run deploy
 ```
+
 
 ## 文档
 
