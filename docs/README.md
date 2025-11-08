@@ -7,7 +7,7 @@ config:
     background: tint-plate
     hero:
       name: 阿哲
-#      tagline: 运维开发人员
+##      tagline: 运维开发人员
       text: 强大自己是解决问题的唯一办法
       actions:
         -
