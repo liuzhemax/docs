@@ -13,15 +13,7 @@ config:
         -
           theme: brand
           text: 我的博客 →
-          link: https://liuzhemax.github.io/
-        -
-          theme: brand
-          text: 自动化运维平台体验
-          link: /notes/devops/612j7li8/  
-        -
-          theme: brand
-          text: K8S管理平台体验
-          link: /notes/kubernetes/6q3h4sff/              
+          link: https://liuzhemax.github.io/         
         -
           theme: alt
           text: Gitee
