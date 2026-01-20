@@ -14,7 +14,7 @@ export default defineThemeConfig({
 
   appearance: true,
   //页脚
-  footer: { message: '', copyright: 'Copyright © 2024 阿哲 www.azhe.xin' },
+  footer: { message: '', copyright: 'Copyright © 2024 阿哲 www.azhe.asia' },
   profile: {
     name: '阿哲',
     description: '强大自己是解决问题的唯一办法',
